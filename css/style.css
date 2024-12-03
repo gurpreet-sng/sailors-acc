@@ -503,6 +503,7 @@ h1.banner-title{
 }
 .voices-of-learners-title{
   margin-bottom: 60px;
+  position: relative;
 }
 .certification-day-section{
   margin-bottom: 100px;
@@ -606,4 +607,14 @@ h1.banner-title{
 }
 .footer-social ul{
   margin: 0px;
+}
+.voices-of-learners-title hr{
+    width: 306px;
+    height: 2px;
+    background-color: #dddddd;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
 }
