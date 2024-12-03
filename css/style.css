@@ -246,6 +246,9 @@ h1.banner-title{
     height: 55px;
     border-radius: 10px;
   }
+  .book-free-demo-form textarea.form-control{
+    height: 227px;
+  }
   .form-select:focus{
     box-shadow: none;
   }
@@ -309,9 +312,6 @@ h1.banner-title{
     background-image: url("../images/Instructor-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-  }
-  .our-instructors-section-wrapper .btn.btn-style{
-
   }
   .nine-instructor{
     text-align: right;
@@ -434,9 +434,7 @@ h1.banner-title{
   font-size: 27px;
   font-weight: 500;
 }
-
-
-.testimonial-container {
+.testimonial-container{
   position: relative;
   width: 667px;
   height: auto;
@@ -444,7 +442,6 @@ h1.banner-title{
   justify-content: center;
   align-items: center;
 }
-
 .video-thumbnail {
   position: relative;
   width: 667px;
@@ -453,13 +450,11 @@ h1.banner-title{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .video-element {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-
 .circle-icons{
   position: absolute;
   width: 80%;
@@ -469,7 +464,6 @@ h1.banner-title{
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
-
 .circle-icon {
   position: absolute;
   width: 40px;
@@ -481,7 +475,6 @@ h1.banner-title{
   cursor: pointer;
   pointer-events: auto;
 }
-
 .icon1 { top: 20%; left: 0%; transform: translateX(-50%); }
 .icon2 { top: 25%; right: 0; transform: translateY(-50%); }
 .icon3 { bottom: 10%; left: 100%; right: 0%; transform: translateX(-50%); }
@@ -504,10 +497,109 @@ h1.banner-title{
 .voices-of-learners{
   background-image: url("../images/dotted-circle.png");
   background-position: center;
+  padding-bottom: 100px;
+  padding-bottom: 300px;
 }
 .voices-of-learners-title{
   margin-bottom: 60px;
 }
 .certification-day-section{
   margin-bottom: 100px;
+}
+.book-demo-class-section .book-free-demo-form{
+  text-align: left;
+  box-shadow: 0px 0px 10px 0px #dddddd;
+}
+.book-demo-class-section .book-free-demo-form .btn.btn-primary{
+    background-color: #0B6BD9;
+    height: 68px;
+    padding: 0px 60px;
+    width: auto;
+}
+.book-demo-class-section label{
+  color: #000000;
+  font-size: 22px;
+}
+.book-demo-class-section .book-free-demo-form textarea.form-control{
+  height: 227px;
+}
+.book-demo-class-section .book-free-demo-form .form-control,.book-demo-class-section .book-free-demo-form .form-select{
+  font-size: 22px;
+  height: 82px;
+}
+.contact-details-footer{
+  background-image: url("../images/footer-bg.png");
+  padding: 100px 0px 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact-details-footer h2{
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.contact-info-title{
+  margin-bottom: 10px;
+}
+.contact-info-title i{
+  color: #ffffff;
+  font-size: 27px;
+}
+.contact-info-title b{
+  color: #ffffff;
+  font-size: 27px;
+  margin-left: 5px;
+}
+.contact-info p{
+  color: #ffffff;
+  font-size: 27px;
+}
+.contact-info p a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 27px;
+}
+.contact-info{
+  margin-bottom: 35px;
+}
+.main-footer{
+  padding: 0px 50px;
+}
+.book-demo-class-section {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  top: auto;
+}
+.main-footer{
+  position: relative;
+}
+.copyright-section{
+  padding: 30px 50px;
+}
+.copyright-section p{
+  margin-bottom: 0px;
+}
+.footer-social li{
+  list-style: none;
+  display: inline-block;
+}
+.footer-social li a{
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 0px #dddddd;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.footer-social{
+  text-align: right;
+}
+.footer-social li a i{
+  color: #000000;
 }
