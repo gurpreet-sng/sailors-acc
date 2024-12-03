@@ -530,7 +530,7 @@ h1.banner-title{
 }
 .contact-details-footer{
   background-image: url("../images/footer-bg.png");
-  padding: 100px 0px 0px;
+  padding: 100px 100px 0px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -603,4 +603,7 @@ h1.banner-title{
 }
 .footer-social li a i{
   color: #000000;
+}
+.footer-social ul{
+  margin: 0px;
 }
