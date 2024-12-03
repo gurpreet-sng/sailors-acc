@@ -499,6 +499,7 @@ h1.banner-title{
   background-position: center;
   padding-bottom: 100px;
   padding-bottom: 300px;
+  background-size: cover;
 }
 .voices-of-learners-title{
   margin-bottom: 60px;
@@ -529,7 +530,7 @@ h1.banner-title{
 }
 .contact-details-footer{
   background-image: url("../images/footer-bg.png");
-  padding: 100px 0px 40px;
+  padding: 100px 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
 }
