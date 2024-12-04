@@ -343,8 +343,9 @@ h1.banner-title:before{
     border-radius: 50px 50px 0px 50px;
     padding:60px;
     background-image: url("../images/thriving-bg.png");
-    background-position: right -50px;
+    background-position: right -150px;
     background-repeat: no-repeat;
+    position: relative;
   }
  .join-thriving-text h2{
     font-size: 70px;
@@ -408,7 +409,7 @@ h1.banner-title:before{
  }
  .read-more-shape-wrapper{
   position: absolute;
-    right: 40px;
+    right: 0px;
     bottom: -144px;
     top: auto;
     text-align: right;
@@ -511,8 +512,7 @@ h1.banner-title:before{
 .voices-of-learners{
   background-image: url("../images/dotted-circle.png");
   background-position: center;
-  padding-bottom: 100px;
-  padding-bottom: 300px;
+  padding-bottom: 150px;
   background-size: cover;
 }
 .voices-of-learners-title{
@@ -525,6 +525,7 @@ h1.banner-title:before{
 .book-demo-class-section .book-free-demo-form{
   text-align: left;
   box-shadow: 0px 0px 10px 0px #dddddd;
+  margin-bottom: 80px;
 }
 .book-demo-class-section .book-free-demo-form .btn.btn-primary{
     background-color: #0B6BD9;
@@ -544,10 +545,25 @@ h1.banner-title:before{
   height: 82px;
 }
 .contact-details-footer{
-  background-image: url("../images/footer-bg.png");
-  padding: 100px 100px 40px;
+  /*background-image: url("../images/footer-bg.png");*/
+  padding: 100px 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.main-footer{
+  position: relative;
+}
+.main-footer:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    z-index: -1;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 .contact-details-footer h2{
   font-weight: 700;
@@ -579,12 +595,11 @@ h1.banner-title:before{
 .contact-info{
   margin-bottom: 35px;
 }
-.main-footer{
-  padding: 0px 50px;
-}
 .book-demo-class-section {
-  position: absolute;
-  right: 100px;
+  /*position: absolute;*/
+  right: 0px;
+  left: 0px;
+  margin: auto;
   bottom: 100px;
   top: auto;
 }
@@ -647,5 +662,336 @@ h1.banner-title:before{
 	}
   .container{
     max-width: 1512px;
+  }
+}
+@media only screen and (max-width:1700px){
+
+  .navbar.navbar-expand-md.navbar-dark .search-form-style{
+    display: none;
+  }
+  h1.banner-title br{
+    display: none;
+  }
+  .main-footer:before{
+    width: 95%;
+  }
+}
+@media only screen and (max-width:1600px){
+
+  .limited-seats {
+    display: none;  
+  }
+  .contact-details-footer{
+    background-size: cover;
+  }
+  
+}
+@media only screen and (max-width:1440px){
+  
+  .navbar-expand-md .navbar-nav .nav-link{
+    padding: 15px 10px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  h1.banner-title{
+    font-size: 40px;
+    line-height: 65px;
+  } 
+  .navbar-nav.me-auto{
+    margin-right: 20px !important;
+  }
+  .banner-section-wrapper{
+    padding: 0px 40px;
+  }
+  .btn-style{
+    padding: 15px 20px;
+  }
+  .banner-section-wrapper .mt-5{
+    margin-top: 10px !important;
+    padding-bottom: 40px;
+  }
+  .banner-image{
+    margin-top: -0px;
+  }
+  .contact-details-footer{
+    padding: 100px 0px 40px;
+  }
+  .contact-info p a{
+    font-size: 22px;
+  }
+  .contact-info p{
+    font-size: 22px;
+  }
+  .copyright-section {
+    padding: 30px 50px 20px;
+  }
+  .video-thumbnail{
+    width: 580px;
+  }
+  .join-thriving-text h2{
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .numbering-section-wrapper .row{
+    width: 80%;
+  }
+  .numbering-section-wrapper{
+    padding: 40px 0px 0px;
+  }
+  h1.banner-title:before{
+    left: -35px;
+  }
+}
+@media only screen and (max-width:1199px){
+
+  .navbar-expand-md .navbar-nav .nav-link{
+    font-size: 16px;
+  }
+  .spaceleft-right{
+    padding: 0px 20px;
+  }
+  .btn-style{
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .navbar-nav.me-auto {
+    margin-right: 10px !important;
+  }
+  .navbar-expand-md .navbar-nav .nav-link{
+    font-size: 14px;
+    padding: 10px;
+  }
+  .navbar .btn-style{
+    font-size: 14px;
+  }
+  h1.banner-title {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .course-info-wrapper{
+    flex-wrap: wrap;
+  }
+  .course-info{
+    margin-bottom: 5px;
+  }
+  .course-info-wrapper{
+    margin-top: 10px;
+  }
+  .gallery-item-footer{
+    flex-wrap: wrap;
+  }
+  .gallery-item-footer{
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .gallery-item-footer a{
+    margin-bottom: 10px;
+  }
+  .book-demo-section .book-demo-content h2{
+    font-size: 40px;
+  }
+  .join-thriving-text h2{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .join-thriving-text p br{
+    display: none;
+  }
+  .thriving-feature{
+    padding: 40px 40px;
+  }
+  .numbering h3{
+    font-size: 30px;
+  }
+  .numbering-section-wrapper .row {
+    width: 66%;
+  }
+  .numbering p{
+    font-size: 18px;
+  }
+  .join-thriving-text p{
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .testimonial-container{
+    width: 480px;
+  }
+  .video-thumbnail {
+    width: 480px;
+  }
+  .contact-info p a {
+    font-size: 20px;
+  }
+  .contact-info-title b{
+    font-size: 25px;
+  }
+  .contact-info-title{
+    margin-bottom: 5px;
+  }
+  .book-demo-class-section label{
+    font-size: 20px;
+  }
+  .book-demo-class-section .form-check-input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+  }
+}
+@media only screen and (max-width:1024px){
+
+  .navbar .btn-style{
+    display: none;
+  }
+  h1.banner-title{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .book-free-demo-form h2{
+    font-size: 35px;
+  }
+  .contact-details-footer{
+    padding: 100px 0px 0px 40px;
+  }
+  .contact-details-footer h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .book-demo-class-section .book-free-demo-form .form-control, .book-demo-class-section .book-free-demo-form .form-select {
+    font-size: 20px;
+    height: 66px;
+  }
+  .book-demo-class-section .book-free-demo-form{
+    margin-right: 40px;
+  }
+  .voices-of-learners{
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width:991px){
+
+  .banner-section-wrapper .mt-5 {
+    margin-top: 40px !important;
+    padding-bottom: 0px;
+}
+h1.banner-title{
+  margin-top: 40px;
+}
+.navbar-brand:before{
+  width: 390px;
+  height: 112px;
+  background-size: 100%;
+}
+.navbar-brand{
+  padding: 30px 30px 0px;
+}
+.navbar-brand img{
+  width: 219px;
+}
+.book-demo-section .book-demo-content h2{
+  font-size: 35px;
+}
+.book-free-demo-form{
+  padding: 30px;
+}
+.join-thriving-text h2{
+  font-size: 40px;
+  line-height: 50px;
+}
+.users-images {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.numbering-section-wrapper .row{
+  width: 100%;
+}
+.read-more-shape-wrapper{
+  position: static;
+}
+.read-more-shape{
+  height: auto;
+}
+.join-thriving-community-section .container-fluid{
+  border-radius: 50px;
+}
+.certification-day-section.space-top-100{
+  padding-top: 60px;
+}
+.section-title-h2 h2{
+  font-size: 40px;
+}
+.certification-image{
+  margin-bottom: 30px;
+}
+.our-instructors-section-wrapper.space-top-bottom{
+  padding-bottom: 60px;
+}
+.certification-day-section {
+  margin-bottom: 50px;
+}
+.voices-of-learners-title hr{
+  display: none;
+}
+.video-thumbnail {
+  width: 300px;
+}
+.testimonial-container {
+  width: 300px;
+}
+.voices-of-learners-title{
+  margin-bottom: 40px;
+}
+.voices-of-learners-title p{
+  font-size: 20px;
+}
+.copyright-section p{
+  text-align: center;
+}
+.footer-social{
+  text-align: center;
+  margin-top: 20px;
+}
+.our-instructors-section-wrapper .section-title{
+  margin-bottom: 30px;
+}
+.our-instructors-section-wrapper.space-top-bottom{
+  padding-top: 60px;
+}
+.book-free-demo-form h2{
+  font-size: 30px;
+}
+}
+@media only screen and (max-width:767px){
+
+  .navbar-toggler{
+    background-color: #00255B;
+  }
+  .contact-details-footer{
+    padding: 100px 0px 0px 0px;
+  }
+  .book-demo-class-section label{
+    font-size: 18px;
+  }
+  .book-demo-class-section .book-free-demo-form {
+    margin-right: 0px;
+  }
+  .gallery-title{
+    margin-bottom:0px;
+  }
+  .book-demo-content{
+    margin-bottom: 40px;
+  }
+  .join-thriving-community-section .container-fluid{
+    padding: 40px;
+  }
+  .join-thriving-text h2 br{
+    display: none;
+  }
+  .voices-of-learners-title h3{
+    font-size: 42px;
+  }
+  .voices-of-learners-title p{
+    font-size: 18px;
+  }
+  .voices-of-learners-title{
+    text-align: center;
   }
 }
