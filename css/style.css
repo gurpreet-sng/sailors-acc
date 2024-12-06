@@ -793,7 +793,27 @@ h1.banner-title:before{
 .video-container iframe{
   display: none;
 }
-
+.course-content{
+  border-radius: 20px;
+  border: 1px solid #E9E9E9;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.course-content i{
+  margin-right: 10px;
+}
+.course-content p{
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+.course-content-section .section-title-h2 h2{
+  margin-bottom: 50px;
+}
+.course-content-section{
+  padding-bottom: 60px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
