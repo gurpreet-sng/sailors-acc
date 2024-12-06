@@ -23,6 +23,9 @@ body{
     color: #838383;
     text-align: center;
 }
+.navbar-expand-md .navbar-nav .nav-link:hover{
+  color: #ff4c83;
+}
 .spaceleft-right{
     padding: 0px 40px;
 }
@@ -455,7 +458,7 @@ h1.banner-title:before{
 .testimonial-container{
   position: relative;
   width: 667px;
-  height: auto;
+  height: 381px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,7 +466,7 @@ h1.banner-title:before{
 .video-thumbnail {
   position: relative;
   width: 667px;
-  height: auto;
+  height: 381px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -729,6 +732,11 @@ h1.banner-title:before{
   }
   .video-thumbnail{
     width: 580px;
+    height: 326px;
+  }
+  .testimonial-container{
+    width: 580px;
+    height: 326px;
   }
   .join-thriving-text h2{
     font-size: 60px;
@@ -817,9 +825,11 @@ h1.banner-title:before{
   }
   .testimonial-container{
     width: 480px;
+    height: 277px;
   }
   .video-thumbnail {
     width: 480px;
+    height: 277px;
   }
   .contact-info p a {
     font-size: 20px;
@@ -932,9 +942,11 @@ h1.banner-title{
 }
 .video-thumbnail {
   width: 300px;
+  height: 176px;
 }
 .testimonial-container {
   width: 300px;
+  height: 176px;
 }
 .voices-of-learners-title{
   margin-bottom: 40px;
@@ -1141,7 +1153,7 @@ h1.banner-title{
     padding: 40px 20px;
   }
   .join-thriving-text h2{
-    font-size: 32px;
+    font-size: 30px;
     line-height: 40px;
   }
   .join-thriving-text p{
@@ -1173,7 +1185,7 @@ h1.banner-title{
   font-size: 11px;
 }
 .certification-day-section.space-top-100 {
-  padding-top: 40px;
+  padding: 40px 10px 20px;
 }
 .voices-of-learners-title h3{
   font-size: 30px;
@@ -1260,5 +1272,12 @@ h1.banner-title{
 }
 .thriving-feature{
   border-radius: 25px;
+}
+.video-thumbnail{
+  width: 280px;
+  height: 160px;
+}
+.voices-of-learners-title {
+  margin-bottom: 30px;
 }
 }
