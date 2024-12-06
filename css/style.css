@@ -11,6 +11,9 @@ body{
 .space-left-right{
     padding: 0px 50px;
 }
+.logo-black{
+  display: none;
+}
 .navbar-expand-md .navbar-nav .nav-link{
     font-size: 20px;
     line-height: 26px;
@@ -684,7 +687,6 @@ h1.banner-title:before{
   .contact-details-footer{
     background-size: cover;
   }
-  
 }
 @media only screen and (max-width:1440px){
   
@@ -868,7 +870,7 @@ h1.banner-title:before{
 }
 @media only screen and (max-width:991px){
 
-  .banner-section-wrapper .mt-5 {
+.banner-section-wrapper .mt-5{
     margin-top: 40px !important;
     padding-bottom: 0px;
 }
@@ -920,9 +922,7 @@ h1.banner-title{
 }
 .certification-image{
   margin-bottom: 30px;
-}
-.our-instructors-section-wrapper.space-top-bottom{
-  padding-bottom: 60px;
+  text-align: center;
 }
 .certification-day-section {
   margin-bottom: 50px;
@@ -953,14 +953,61 @@ h1.banner-title{
   margin-bottom: 30px;
 }
 .our-instructors-section-wrapper.space-top-bottom{
-  padding-top: 60px;
+  padding: 60px 20px;
 }
 .book-free-demo-form h2{
   font-size: 30px;
 }
+.icon1{
+  top: 0%;
+}
+.icon2{
+  top: 0%;
+}
+.icon6{
+  top: 32%;
+}
+.icon4{
+  top: 90%;
+}
 }
 @media only screen and (max-width:767px){
 
+  .navbar-nav.me-auto{
+    margin-right: 0px !important;
+    margin-top: 20px;
+  }
+  .numbering-section-wrapper .row .col-md-3{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    text-align: center;
+  }
+  .navbar .navbar-toggler{
+    margin-left: auto;
+  }
+  .navbar-expand-md .navbar-nav .nav-link{
+    font-size: 18px;
+    padding: 15px;
+  }
+  .banner-section-wrapper{
+    border-radius: 30px;
+  }
+  .logo-white{
+    display: none;
+  }
+  .logo-black{
+    display: block;
+  }
+  .navbar-brand:before{
+    display: none;
+  }
+  .navbar-brand{
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  .navbar{
+    margin-bottom: 25px;
+  }
   .navbar-toggler{
     background-color: #00255B;
   }
@@ -970,7 +1017,7 @@ h1.banner-title{
   .book-demo-class-section label{
     font-size: 18px;
   }
-  .book-demo-class-section .book-free-demo-form {
+  .book-demo-class-section .book-free-demo-form{
     margin-right: 0px;
   }
   .gallery-title{
@@ -994,4 +1041,224 @@ h1.banner-title{
   .voices-of-learners-title{
     text-align: center;
   }
+  .new-courses-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .space-top-bottom{
+    padding: 60px 20px;
+  }
+  .read-more-shape{
+    width: auto;
+  }
+  .read-more-shape a{
+    margin-right: 0px;
+  }
+  .read-more-shape i{
+    right: 0px;
+  }
+  .icon6{
+    right: -13%;
+    top: 30px;
+  }
+  .certification-day-section{
+    margin-bottom: 30px;
+  }
+  .main-footer:before{
+    display: none;
+  }
+  .main-footer{
+    background-color: #0D99FF;
+  }
+  .contact-details-footer{
+    padding: 60px 0px 0px 0px;
+  }
+  .section-title-h2 h2 {
+    font-size: 30px;
+  }
+  .footer-social ul{
+    padding: 0px;
+  }
+}
+@media only screen and (max-width:575px){
+
+  .banner-section-wrapper{
+    padding: 0px 20px;
+  }
+  .read-more-shape a{
+    width: 100%;
+  }
+  .join-thriving-community-section{
+    padding: 0px 20px;
+  }
+  .navbar-brand img{
+    width: 150px;
+  }
+  h1.banner-title {
+    margin-top: 30px;
+  }
+  h1.banner-title{
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .gallery .nav-link{
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  .gallery .tags-bar{
+    justify-content: center !important;
+  }
+  .book-demo-section .book-demo-content h2{
+    font-size: 26px;
+  }
+  .book-free-demo-form{
+    padding: 30px 20px;
+  }
+  .book-free-demo-form h2{
+    font-size: 25px;
+  }
+  .book-free-demo-form .btn.btn-primary{
+    height: 60px;
+    font-size: 16px;
+  }
+  .stars{
+    text-align: center;
+  }
+  .nine-instructor{
+    display: none;
+  }
+  .book-demo-section{
+    background-color: #0B6BD9;
+    background-image: none;
+  }
+  .gallery-item-footer .btn-style{
+    margin: 0px;
+  }
+  .gallery-item-footer h5{
+    margin: 0px;
+  }
+  .join-thriving-community-section .container-fluid{
+    padding: 40px 20px;
+  }
+  .join-thriving-text h2{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .join-thriving-text p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 15px;
+  }
+  .users-images{
+    flex-direction: column;
+  }
+.thriving-feature{
+  padding: 30px 20px;
+}
+.read-more-shape img{
+  width: 60px;
+}
+.read-more-shape i{
+  bottom: -4px;
+  top: auto;
+}
+.read-more-shape a{
+  font-size: 18px;
+  padding: 10px 25px;
+}
+.numbering h3{
+  font-size: 24px;
+}
+.numbering p{
+  font-size: 11px;
+}
+.certification-day-section.space-top-100 {
+  padding-top: 40px;
+}
+.voices-of-learners-title h3{
+  font-size: 30px;
+}
+.voices-of-learners-title p {
+  font-size: 16px;
+}
+.circle-icon{
+  position: static;
+  transform: translate(0px, 0px) !important;
+}
+.circle-icons{
+  position: static;
+  width: 100%;
+  height: 100%;
+  transform: translate(0px, 0px);
+  text-align: center;
+  margin-top: 20px;
+}
+.testimonial-container-wrapper{
+  flex-direction: column;
+}
+.voices-of-learners{
+  padding-bottom: 40px;
+}
+.certification-day-section{
+  margin-bottom: 0px;
+}
+.contact-details-footer{
+  padding: 40px 0px 0px 0px;
+}
+.contact-details-footer h2{
+  font-size: 40px
+}
+.contact-info p a{
+  font-size: 16px;
+}
+.contact-info-title b{
+  font-size: 22px;
+}
+.contact-info p {
+  font-size: 16px;
+}
+.book-demo-class-section .book-free-demo-form .form-control, .book-demo-class-section .book-free-demo-form .form-select {
+  font-size: 16px;
+  height: 55px;
+}
+.book-demo-class-section .book-free-demo-form textarea.form-control{
+  height: 127px;
+}
+.book-demo-class-section label{
+  font-size: 14px;
+}
+.book-demo-class-section .form-check-input[type=checkbox]{
+  width: 15px;
+  height: 15px;
+  margin-right: 0px;
+}
+.book-demo-class-section .book-free-demo-form .btn.btn-primary {
+  height: 50px;
+  padding: 0px 40px;
+}
+.contact-info-title b{
+  font-size: 20px;
+}
+.contact-info-title i {
+  font-size: 20px;
+}
+.copyright-section{
+  padding: 30px 20px 20px;
+}
+.footer-social li a{
+  width: 55px;
+  height: 55px;
+}
+.contact-info{
+  margin-bottom: 30px;
+}
+.book-demo-class-section .book-free-demo-form{
+  margin-bottom: 60px;
+}
+.our-instructors-section-wrapper.space-top-bottom{
+  padding: 40px 20px 30px;
+}
+.thriving-feature{
+  border-radius: 25px;
+}
 }
