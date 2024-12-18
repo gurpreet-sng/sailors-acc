@@ -922,19 +922,24 @@ ul.arrow-list{
   padding: 20px;
 }
 .sliding-section-sidebar a:hover{
-  color: #007bff;
+  color: #ffffff;
+  background-color: #000000;
 }
 .sliding-section-content{
   flex: 1;
-  padding: 20px;
+  padding: 60px;
+  border: 1px solid #E9E9E9;
+  border-radius: 20px;
+  margin-left: 20px;
 }
 .sliding-section-content section{
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  
 }
-
+.sliding-section-content section h4{
+  font-size: 30px;
+  margin-bottom: 30px;
+    font-weight: 700;
+}
 
 @media only screen and (min-width:1920px){
 
