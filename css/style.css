@@ -886,10 +886,10 @@ ul.arrow-list{
   font-size: 52px;
   font-weight: 300;
 }
-
-
 .sliding-section-container{
   display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
 }
 .sliding-section-sidebar{
   position: sticky;
@@ -897,7 +897,7 @@ ul.arrow-list{
   width: 287px;
   background-color: #ffffff;
   padding: 15px;
-  height: 100vh;
+  /*height: 100vh;*/
   overflow-y: auto;
   box-shadow: 0px 0px 5px 0px #dddddd;
   border: 1px solid #E9E9E9;
@@ -935,12 +935,69 @@ ul.arrow-list{
 .sliding-section-content section{
   
 }
+.space-bottom-50{
+  margin-bottom: 50px;
+}
 .sliding-section-content section h4{
   font-size: 30px;
   margin-bottom: 30px;
     font-weight: 700;
 }
-
+.stop-wasting-time-section{
+  background-color: #FF4C83;
+  padding: 80px 0px;
+}
+.stop-wasting-time-section h2{
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.stop-wasting-time-section p{
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0px 40px;
+  font-weight: 400;
+}
+.stop-wasting-time-section .btn-style{
+  background-color: #0B6BD9;
+}
+.stop-wasting-time-section .btn-style:hover{
+  background-color: #000000;
+}
+.section-title-h2 p{
+  font-size: 27px;
+  font-weight: 600;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+  background-color: #FF4C83;
+  color: #ffffff;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/circle-icon.png");
+}
+.accordion-button::after{
+  background-image: url("../images/circle-icon.png");
+}
+.accordion-item{
+  margin-bottom: 20px;
+  border: 1px solid #ACACAC !important;
+  border-radius: 17px !important;
+    overflow: hidden;
+}
+.got-questions-section .section-title-h2{
+  margin-bottom: 60px;
+}
+.accordion-button{
+  font-size: 20px;
+  font-family:"Poppins", serif;
+  font-weight: 700;
+  padding: 28px 20px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -973,6 +1030,9 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1440px){
   
+  .section-title-h2 p{
+    font-size: 22px;
+  }
   .course-info {
     font-size: 12px;
   }
