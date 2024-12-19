@@ -62,7 +62,7 @@
         <div>
             <div class="container-fluid banner-section-wrapper inner-page-banner">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="book-demo-content">
                             <h2>Advanced PHP Certification Course in <span>Ludhiana</span></h2>
                             <h6>2 Months Learning</h6>
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>  
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="book-free-demo-form">
                             <h2>Book A Free Demo</h2>
                             <div class="row">
@@ -188,7 +188,7 @@
         <img src="images/videoimage.jpg" alt="Video Cover">
         <div class="play-button"></div>
         <div class="title">Watch Video For Learn More</div>
-        <iframe id="videoIframe" src="https://www.youtube.com/embed/D0UnqGm_miA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe id="videoPlayer" src="https://www.youtube.com/embed/D0UnqGm_miA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <div class="course-content-section">
@@ -633,9 +633,32 @@
                     loop:true,
                     margin:20,
                     nav:true,
+                    dots:false,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+                    responsiveClass:true,
+                    responsive:{
+        575:{
+            items:1,
+            stagePadding: 50,
+            nav:false,
+            loop:true
+        },
+        767:{
+            items:3,
+            stagePadding: 50,
+            nav:false,
+            loop:true
+        },
+        1199:{
+            items:4,
+            stagePadding: 50,
+            nav:false,
+            loop:true
+        }
+    }
+                  
                 });
                 
                 $('.play').on('click',function(){
@@ -646,6 +669,16 @@
                 })
             
               });
+
+            function playVideo(){
+                const thumbnail = document.querySelector('.video-thumbnail');
+                const videoPlayer = document.getElementById('videoPlayer');
+
+                thumbnail.style.display = 'none';
+                videoPlayer.style.display = 'block';
+                videoPlayer.play();
+            }
+
         </script>
 
         <script src="js/maugallery.js"></script>
