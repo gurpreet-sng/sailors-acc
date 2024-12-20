@@ -14,6 +14,10 @@ body{
 .logo-black{
   display: none;
 }
+.inner-page-banner .book-demo-content h6.specialization-in{
+  font-size: 35px;
+  margin: 30px 0px;
+}
 .navbar-expand-md .navbar-nav .nav-link{
     font-size: 20px;
     line-height: 26px;
@@ -834,6 +838,9 @@ h1.banner-title:before{
   background-color: #1D1D1D;
   position: relative;
 }
+.about-the-course-content{
+  padding-right: 20px;
+}
 .col-lg-6.girl-image{
   width: 50%;
   position: absolute;
@@ -960,7 +967,7 @@ ul.arrow-list{
   color: #ffffff;
   font-size: 18px;
   line-height: 28px;
-  margin: 20px 0px 40px;
+  margin: 20px 20px 40px;
   font-weight: 400;
 }
 .stop-wasting-time-section .btn-style{
@@ -1004,6 +1011,62 @@ ul.arrow-list{
 .accordion-body{
   font-size: 18px;
   line-height: 34px;
+}
+.book-demo-content h4{
+  color: #ffffff;
+  font-size: 30px;
+}
+.uiux p{
+  position: relative;
+}
+.uiux p:before{
+  content: "";
+  width: 34px;
+  height: 89px;
+  background-image: url(../images/arrow-down.png);
+  position: absolute;
+  bottom: -68px;
+  left: -60px;
+}
+.ul-arrow{
+  position: relative;
+}
+.ul-arrow:before{
+  content: "";
+  width: 34px;
+  height: 89px;
+  background-image: url(../images/arrow-down.png);
+  position: absolute;
+  bottom: -68px;
+  left: -60px;
+}
+.book-free-demo-form-wrapper{
+  position: relative;
+}
+.book-demo-content.uiux{
+  padding-left: 40px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+  padding: 15px 20px;
+}
+.bg-img-none {
+  background-image: none !important;
+}
+.tools-you-master{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5C5C5C;
+  border-radius: 18px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.tools-logo{
+  width: 20%;
+  padding: 0px 20px;
+}
+.tools-logo img{
+  width: 100%;
 }
 @media only screen and (min-width:1920px){
 
@@ -1380,9 +1443,6 @@ h1.banner-title{
 .icon4{
   top: 90%;
 }
-.stop-wasting-time-section p{
-
-}
 .inner-page-banner .book-demo-content h2{
   font-size: 50px;
   line-height: 60px;
@@ -1401,9 +1461,70 @@ h1.banner-title{
 .banner-section-wrapper.inner-page-banner{
   padding: 60px 30px;
 }
+.about-the-course.space-top-100.space-bottom-100{
+  padding: 70px 0px;
+}
+.Step-by-Step-Journey.space-top-100{
+  padding-top: 70px;
+}
+.sliding-section-sidebar{
+  position: static;
+  margin-bottom: 40px;
+}
+.sliding-section-container{
+  flex-direction: column;
+}
+.sliding-section-content{
+  margin-left: 0px;
+}
+.sliding-section-sidebar{
+  width: 100%;
+}
+.got-questions-section.space-top-100.space-bottom-100{
+  padding: 70px 0px;
+}
 }
 @media only screen and (max-width:767px){
 
+  .space-top-100.tools-you-master-section{
+    padding-top: 60px;
+  }
+  .tools-logo{
+    width: 50%;
+    text-align: center;
+  }
+  .section-title-h2 p{
+    font-size: 18px;
+  }
+  .inner-page-banner .book-demo-content h6.specialization-in {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+  .uiux p:before{
+    left: -35px;
+  }
+  .book-demo-content.uiux{
+    padding-left: 20px;
+  }
+  .course-content-section .section-title-h2 h2{
+    margin-bottom: 20px;
+  }
+  .unique-courses .owl-stage-outer {
+    padding: 40px 0px 20px;
+  }
+  .inner-page-banner .book-demo-content h2{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .banner-section-wrapper.inner-page-banner{
+    padding: 40px 20px;
+  }
+  .book-free-demo-form .btn.btn-primary{
+    height: 63px;
+  }
+  .unique-course-section.space-top-100{
+    padding-top: 70px;
+  }
   .navbar-nav.me-auto{
     margin-right: 0px !important;
     margin-top: 20px;
@@ -1464,7 +1585,7 @@ h1.banner-title{
     display: none;
   }
   .voices-of-learners-title h3{
-    font-size: 42px;
+    font-size: 32px;
   }
   .voices-of-learners-title p{
     font-size: 18px;
@@ -1518,9 +1639,81 @@ h1.banner-title{
     min-height: 240px;
     padding: 30px;
   }
+  .section-title-h2 h3 {
+    font-size: 32px;
+  }
+  .sliding-section-content section h4{
+    font-size: 22px;
+  }
+  .voices-of-learners.space-top-100{
+    padding-top: 70px;
+  }
+  .stop-wasting-time-section h2 {
+    font-size: 40px;
+  }
+  .stop-wasting-time-section p br{
+    display: none;
+  }
+  .book-demo-class-section .book-free-demo-form .btn.btn-primary{
+    height: 58px;
+  }
+  .book-demo-class-section .book-free-demo-form .form-control, .book-demo-class-section .book-free-demo-form .form-select {
+    font-size: 18px;
+    height: 60px;
+  }
+  .book-demo-class-section .book-free-demo-form textarea.form-control{
+    height: 127px;
+  }
+  .sliding-section-content{
+    padding: 40px 20px;
+  }
+  .ul-arrow:before{
+    left: -35px;
+  }
 }
 @media only screen and (max-width:575px){
 
+  .stop-wasting-time-section h2{
+    font-size: 30px;
+  }
+  .voices-of-learners.space-top-100{
+    padding-top: 60px;
+  }
+  .stop-wasting-time-section{
+    padding: 60px 0px;
+  }
+  .Step-by-Step-Journey.space-top-100{
+    padding-top: 60px;
+  }
+  .sliding-section-content section h4{
+    font-size: 20px;
+  }
+  .sliding-section-content{
+    padding: 40px 20px 30px;
+  }
+  .sliding-section-sidebar a{
+    font-size: 16px;
+  }
+  .course-content-section {
+    padding-bottom: 40px;
+  }
+  .about-the-course.space-top-100.space-bottom-100{
+    padding: 60px 0px;
+  }
+  .unique-course {
+    min-height: 290px;
+    padding: 30px 20px;
+  }
+  .video-container .title{
+    font-size: 10px;
+  }
+  .unique-course-section.space-top-100{
+    padding-top: 60px;
+  }
+  .inner-page-banner .book-demo-content h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
   .banner-section-wrapper{
     padding: 0px 20px;
   }
@@ -1704,7 +1897,14 @@ h1.banner-title{
   width: 280px;
   height: 160px;
 }
-.voices-of-learners-title {
+.voices-of-learners-title{
   margin-bottom: 30px;
+}
+.accordion-button{
+  font-size: 18px;
+}
+.video-container{
+  width: 300px;
+  height: 160px;
 }
 }
