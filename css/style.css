@@ -1816,7 +1816,7 @@ h1.banner-title{
     margin-bottom: 20px;
   }
   .power-of-next-gen-section.space-top-100{
-    padding-top: 50px;
+    padding: 50px 10px 0px;
   }
   .sliding-section-content section h3{
     font-size: 30px;
@@ -1831,7 +1831,7 @@ h1.banner-title{
     padding: 60px 0px;
   }
   .Step-by-Step-Journey.space-top-100{
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .sliding-section-content section h4{
     font-size: 20px;
@@ -2051,5 +2051,8 @@ h1.banner-title{
 .video-container{
   width: 300px;
   height: 160px;
+}
+.got-questions-section.space-top-100.space-bottom-100{
+  padding: 60px 0px;
 }
 }
