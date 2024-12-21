@@ -507,8 +507,8 @@ h1.banner-title:before{
 }
 .circle-icon {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid white;
@@ -516,13 +516,22 @@ h1.banner-title:before{
   cursor: pointer;
   pointer-events: auto;
 }
-.icon1 { top: 20%; left: 0%; transform: translateX(-50%); }
-.icon2 { top: 25%; right: 0; transform: translateY(-50%); }
-.icon3 { bottom: 10%; left: 100%; right: 0%; transform: translateX(-50%); }
-.icon4 { top: 55%; left: 0; transform: translateY(-50%); }
-.icon5 { top: 45%; left: -10%;}
+.icon1 { top: -15%; left: 0%; transform: translateX(-50%); }
+.icon2 {
+  top: -16%;
+  right: -192px;
+  transform: translateY(-55%);
+}
+.icon3 { bottom: 10%; left: 100%; right: 0%; transform: translateX(-90%); }
+.icon4 {
+  top: 25%;
+  left: 140px;
+  transform: translateY(80%);
+}
+.icon5 { top: 45%; left: -15%;}
+
 .icon6{
-  top: 40%;
+  top: 0%;
   left: auto;
   right: 10%;
 }
@@ -536,10 +545,13 @@ h1.banner-title:before{
   position: relative;
 }
 .voices-of-learners{
+  padding-bottom: 150px;
+}
+.voices-of-learners-content{
   background-image: url("../images/dotted-circle.png");
   background-position: center;
-  padding-bottom: 150px;
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 .voices-of-learners-title{
   margin-bottom: 60px;
@@ -1101,6 +1113,17 @@ ul.arrow-list{
   width: 100%;
   width: 200px;
 }
+.power-of-next-gen-section .section-title-h2 p{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: normal;
+}
+.powerof-logo{
+  margin-bottom: 15px;
+}
+.power-of-next-gen-section .col-lg-4{
+  padding: 0px 8px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1121,6 +1144,16 @@ ul.arrow-list{
   .main-footer:before{
     width: 95%;
   }
+  .icon4 {top: 55%; left: 45px; transform: translateY(80%);}
+  .icon5{
+    left: -19%;
+  }
+  .icon6{
+    right: -3%;
+  }
+  .icon3{
+    transform: translateX(-135%);
+  }
 }
 @media only screen and (max-width:1600px){
 
@@ -1132,7 +1165,7 @@ ul.arrow-list{
   }
 }
 @media only screen and (max-width:1440px){
-  
+
   .section-title-h2 p{
     font-size: 22px;
   }
@@ -1304,6 +1337,19 @@ ul.arrow-list{
   .book-demo-class-section .form-check-input[type=checkbox]{
     width: 20px;
     height: 20px;
+  }
+  .icon5 {
+    left: -10%;
+  }
+  .icon2{
+    right: -107px;
+  }
+  .icon6{
+    top: 15%;
+  }
+  .icon3{
+    transform: translateX(-50%);
+    bottom: -10%;
   }
 }
 @media only screen and (max-width:1024px){
@@ -1529,9 +1575,22 @@ h1.banner-title{
 .got-questions-section.space-top-100.space-bottom-100{
   padding: 70px 0px;
 }
+.circle-icon{
+  width: 40px;
+  height: 40px;
+}
+.icon2{
+  right: 30px;
+}
+.icon5{
+  top: 65%;
+}
 }
 @media only screen and (max-width:767px){
 
+  .power-of-next-gen-section.space-top-100{
+    padding-top: 70px;
+  }
   .space-top-100.tools-you-master-section{
     padding-top: 60px;
   }
@@ -1711,7 +1770,10 @@ h1.banner-title{
     height: 127px;
   }
   .sliding-section-content{
-    padding: 40px 20px;
+    padding: 0px 20px;
+  }
+  .sliding-section-content section{
+    padding: 40px 0px 0px;
   }
   .ul-arrow:before{
     left: -35px;
@@ -1719,9 +1781,46 @@ h1.banner-title{
   .tools-logo img{
     margin: 10px 0px;
   }
+  .icon4{
+    left: -8px;
+  }
+  .icon2{
+    right: -25px;
+  }
+  .icon6{
+    top: 50px;
+  }
+  .sliding-section-content section h3{
+    font-size: 35px;
+  }
 }
 @media only screen and (max-width:575px){
 
+  .inner-page-banner .book-demo-content h6.specialization-in{
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .book-demo-content h4{
+    font-size: 25px;
+  }
+  .inner-page-banner .book-demo-content h6{
+    font-size: 16px;
+  }
+  .tools-you-master{
+    padding: 20px;
+  }
+  .tools-logo img{
+    width: 100px;
+  }
+  .sliding-section-content section h4{
+    margin-bottom: 20px;
+  }
+  .power-of-next-gen-section.space-top-100{
+    padding-top: 50px;
+  }
+  .sliding-section-content section h3{
+    font-size: 30px;
+  }
   .stop-wasting-time-section h2{
     font-size: 30px;
   }
@@ -1736,9 +1835,6 @@ h1.banner-title{
   }
   .sliding-section-content section h4{
     font-size: 20px;
-  }
-  .sliding-section-content{
-    padding: 40px 20px 30px;
   }
   .sliding-section-sidebar a{
     font-size: 16px;
