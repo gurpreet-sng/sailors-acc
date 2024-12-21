@@ -4,6 +4,9 @@ body{
     font-family: "Roboto", serif;
     color: #080808;
 }
+html{
+  scroll-behavior: smooth;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -937,13 +940,31 @@ ul.arrow-list{
 }
 .sliding-section-content{
   flex: 1;
-  padding: 60px;
+  padding: 0px 60px;
   border: 1px solid #E9E9E9;
   border-radius: 20px;
   margin-left: 20px;
+  height: 1700px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  box-shadow: 0px 0px 5px 0px #dddddd;
 }
-.sliding-section-content section{
-  
+.sliding-section-content::-webkit-scrollbar{
+  width: 13px;
+}
+.sliding-section-content::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grey;*/
+  border-radius: 10px;
+  background-color: #DFDFDF;
+}
+/* Handle */
+.sliding-section-content::-webkit-scrollbar-thumb {
+  background: #0B6BD9; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+.sliding-section-content::-webkit-scrollbar-thumb:hover {
+  background: #0B6BD9;
 }
 .space-bottom-50{
   margin-bottom: 50px;
@@ -951,7 +972,15 @@ ul.arrow-list{
 .sliding-section-content section h4{
   font-size: 30px;
   margin-bottom: 30px;
-    font-weight: 700;
+  font-weight: 700;
+}
+.sliding-section-content section h3{
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.sliding-section-content section{
+  padding: 60px 0px 0px;
 }
 .stop-wasting-time-section{
   background-color: #FF4C83;
@@ -1058,15 +1087,19 @@ ul.arrow-list{
   justify-content: space-between;
   border: 1px solid #5C5C5C;
   border-radius: 18px;
-  padding: 30px;
+  padding: 0px 30px;
   flex-wrap: wrap;
+  height: 150px;
+  justify-content: center;
 }
 .tools-logo{
   width: 20%;
   padding: 0px 20px;
+  text-align: center;
 }
 .tools-logo img{
   width: 100%;
+  width: 200px;
 }
 @media only screen and (min-width:1920px){
 
@@ -1163,6 +1196,9 @@ ul.arrow-list{
   }
   h1.banner-title:before{
     left: -35px;
+  }
+  .tools-logo img{
+    width: 150px;
   }
 }
 @media only screen and (max-width:1199px){
@@ -1338,8 +1374,18 @@ ul.arrow-list{
 }
 @media only screen and (max-width:991px){
 
+  .space-top-100.tools-you-master-section{
+    padding-top: 70px;
+  }
+.tools-you-master{
+  height: auto;
+  padding: 25px 30px;
+}
 .col-lg-6.girl-image{
     display: none;
+}
+.tools-logo{
+  width: 32%;
 }
 .banner-section-wrapper .mt-5{
     margin-top: 40px !important;
@@ -1670,6 +1716,9 @@ h1.banner-title{
   .ul-arrow:before{
     left: -35px;
   }
+  .tools-logo img{
+    margin: 10px 0px;
+  }
 }
 @media only screen and (max-width:575px){
 
@@ -1701,7 +1750,7 @@ h1.banner-title{
     padding: 60px 0px;
   }
   .unique-course {
-    min-height: 290px;
+    min-height: 260px;
     padding: 30px 20px;
   }
   .video-container .title{
