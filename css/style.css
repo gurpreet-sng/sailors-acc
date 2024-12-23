@@ -1127,6 +1127,47 @@ ul.arrow-list{
 .tools-logo-images .col-lg-2.col-md-3.col-6{
   margin-bottom: 20px;
 }
+.why-learn-wordpress-section .section-title-h2 p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.dotted-ul b{
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+}
+.dotted-ul ul li{
+  font-size: 18px;
+  line-height: 40px;
+}
+.dotted-ul ul{
+  margin-bottom: 40px;
+}
+.why-learn-wordpress-section .section-title-h2 h2{
+  margin-bottom: 30px;
+}
+.wp-image{
+  overflow: hidden;
+  border-radius: 40px;
+}
+.why-learn-wordpress-section .section-title-h2{
+  margin-left: 50px;
+}
+.wordpress-courses .unique-courses .owl-stage-outer{
+  padding: 60px 0px 0px;
+}
+.what-you-learn .section-title-h2 p{
+  font-weight: 400;
+}
+.space-top-40{
+  margin-top: 40px;
+}
+.why-learn-wordpress-section .wp-image img{
+  width: 100%;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1591,7 +1632,17 @@ h1.banner-title{
 }
 @media only screen and (max-width:767px){
 
+  .why-learn-wordpress-section .section-title-h2{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .space-top-100.what-you-learn{
+    margin-top: 70px;
+  } 
   .power-of-next-gen-section.space-top-100{
+    padding-top: 70px;
+  }
+  .space-top-100.why-learn-wordpress-section{
     padding-top: 70px;
   }
   .space-top-100.tools-you-master-section{
