@@ -1168,6 +1168,31 @@ ul.arrow-list{
 .why-learn-wordpress-section .wp-image img{
   width: 100%;
 }
+.ul-arrow b{
+  color: #ffffff;
+}
+.white-b{
+  color: #ffffff;
+}
+.thumbnail-twenty-percent{
+  width: 20%;
+}
+.thumbnail-twenty-percent .unique-course{
+    min-height: 234px;
+    padding: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.thumbnail-twenty-percent .unique-course h4{
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.thumbnail-twenty-percent i img{
+  width: 100%;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1210,6 +1235,7 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1440px){
 
+  
   .section-title-h2 p{
     font-size: 22px;
   }
@@ -1276,6 +1302,9 @@ ul.arrow-list{
   }
   .tools-logo img{
     width: 150px;
+  }
+  .thumbnail-twenty-percent .unique-course h4 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width:1199px){
@@ -1464,6 +1493,9 @@ ul.arrow-list{
 }
 @media only screen and (max-width:991px){
 
+  .thumbnail-twenty-percent {
+    width: 30%;
+}
   .space-top-100.tools-you-master-section{
     padding-top: 70px;
   }
@@ -1631,7 +1663,9 @@ h1.banner-title{
 }
 }
 @media only screen and (max-width:767px){
-
+  .space-top-100.what-learn{
+    padding-top: 70px;
+  }
   .why-learn-wordpress-section .section-title-h2{
     margin-left: 0px;
     margin-top: 30px;
@@ -1847,9 +1881,24 @@ h1.banner-title{
   .sliding-section-content section h3{
     font-size: 35px;
   }
+  .thumbnail-twenty-percent {
+    width: 40%;
+  }
 }
 @media only screen and (max-width:575px){
 
+  .thumbnail-twenty-percent {
+    width: 50%;
+  }
+  .thumbnail-twenty-percent .unique-course{
+    padding: 10px;
+  }
+  .thumbnail-twenty-percent .unique-course h4{
+    font-size: 16px;
+  }
+  .thumbnail-twenty-percent .unique-course{
+    min-height: 210px;
+  }
   .inner-page-banner .book-demo-content h6.specialization-in{
     font-size: 20px;
     margin: 10px 0px;
