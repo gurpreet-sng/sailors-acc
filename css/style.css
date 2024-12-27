@@ -10,6 +10,10 @@ html{
 .sliding-section-content h5{
   font-weight: 700;
 }
+.text-style p{
+  font-size: 22px;
+  line-height: 42px;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -981,8 +985,15 @@ ul.arrow-list{
 .sliding-section-content::-webkit-scrollbar-thumb:hover {
   background: #0B6BD9;
 }
+.student-work{
+  border-radius: 30px;
+  overflow: hidden;
+}
 .space-bottom-50{
   margin-bottom: 50px;
+}
+.space-top-50{
+  margin-top: 50px;
 }
 .sliding-section-content section h4{
   font-size: 30px;
@@ -1195,6 +1206,17 @@ ul.arrow-list{
 }
 .thumbnail-twenty-percent i img{
   width: 100%;
+}
+.w-935{
+  max-width: 935px;
+  margin: auto;
+}
+.learn-graphic-design .unique-course{
+  min-height: auto;
+}
+.learn-graphic-design .unique-course i{
+  margin-bottom: 0px;
+  text-align: center;
 }
 @media only screen and (min-width:1920px){
 
