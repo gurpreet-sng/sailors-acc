@@ -7,6 +7,9 @@ body{
 html{
   scroll-behavior: smooth;
 }
+.sliding-section-content h5{
+  font-weight: 700;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -1915,6 +1918,7 @@ h1.banner-title{
   .tools-logo img{
     width: 100px;
   }
+  
   .sliding-section-content section h4{
     margin-bottom: 20px;
   }
