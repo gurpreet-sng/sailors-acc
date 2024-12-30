@@ -292,6 +292,7 @@ h1.banner-title:before{
   }
   .book-free-demo-form textarea.form-control{
     height: 227px;
+    padding: 15px .75rem;
   }
   .form-select:focus{
     box-shadow: none;
@@ -1256,6 +1257,94 @@ ul.arrow-list{
 .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
   display: flex;
 }
+.inner-page-banner .book-demo-content h6 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.book-demo-content.contact-address h6{
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.map-section-wrapper iframe{
+  width: 100%;
+  height: 800px;
+}
+.map-section-wrapper{
+  padding-top: 100px;
+}
+.book-free-demo-form.contact-us-form .form-check{
+  text-align: left;
+}
+.book-free-demo-form.contact-us-form label{
+  color: #303030;
+  font-size: 20px;
+}
+.image-radius{
+  border-radius: 40px;
+  overflow: hidden;
+}
+.choose-sailors-academy-text{
+  padding: 0px 40px;
+}
+.choose-sailors-academy-text .section-title-h2 p{
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.why-choose-icons{
+  display: flex;
+  margin-bottom: 40px;
+}
+.why-choose-icons i{
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.why-choose-text h6{
+  font-size: 24px;
+}
+.why-choose-text p{
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.what-we-offer-section{
+  max-width: 1024px;
+  margin: auto;
+  border-radius: 40px;
+  text-align: center;
+  background-image: url("../images/layerdbg.png");
+  padding: 50px;
+}
+.what-we-offer-section .section-title-h2 p{
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.why-choose-sailors-acc-section{
+  margin-bottom: 60px;
+}
+.our-instructors-section-wrapper.meet-our-instructors .section-title h3{
+  font-size: 50px;
+}
+.our-vision-section{
+  background-image: url("../images/our-vision-bgg.jpg");
+  background-size: cover;
+}
+.our-vision-section .book-free-demo-form{
+  text-align: left;
+  padding: 60px 40px;
+}
+.our-vision-section .book-free-demo-form h2{
+  color: #000000;
+  font-weight: 400;
+  font-size: 50px;
+}
+.our-vision-section .book-free-demo-form p{
+  color: #000000;
+  font-size: 18px;
+  line-height: 34px;
+}
+.our-vision-section .btn.btn-style{
+  margin-top: 30px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1263,6 +1352,12 @@ ul.arrow-list{
 	}
   .container{
     max-width: 1512px;
+  }
+  .unique-course-section-about-page{
+    padding-top: 180px !important;
+  }
+  .efforts-look-like-image{
+    margin-bottom: -200px;
   }
 }
 @media only screen and (max-width:1700px){
@@ -1297,7 +1392,6 @@ ul.arrow-list{
   }
 }
 @media only screen and (max-width:1440px){
-
   
   .section-title-h2 p{
     font-size: 22px;
@@ -1556,7 +1650,10 @@ ul.arrow-list{
 }
 @media only screen and (max-width:991px){
 
-  .thumbnail-twenty-percent {
+.book-demo-content.uiux.contact-address{
+    padding-left: 0px;
+}
+.thumbnail-twenty-percent{
     width: 30%;
 }
   .space-top-100.tools-you-master-section{
@@ -1944,12 +2041,24 @@ h1.banner-title{
   .sliding-section-content section h3{
     font-size: 35px;
   }
-  .thumbnail-twenty-percent {
+  .thumbnail-twenty-percent{
     width: 40%;
+  }
+  .map-section-wrapper iframe{
+    height: 400px;
   }
 }
 @media only screen and (max-width:575px){
 
+  .map-section-wrapper iframe{
+    height: 300px;
+  }
+  .book-demo-content.uiux.contact-address .mb-5{
+    margin-bottom: 30px !important;
+  }
+  .book-free-demo-form textarea.form-control{
+    height: 150px;
+  }
   .thumbnail-twenty-percent {
     width: 50%;
   }
@@ -1972,13 +2081,21 @@ h1.banner-title{
   .inner-page-banner .book-demo-content h6{
     font-size: 16px;
   }
+  .book-demo-content.contact-address h6{
+    line-height: 24px;
+  }
+  .book-free-demo-form.contact-us-form label{
+    font-size: 16px;
+  }
   .tools-you-master{
     padding: 20px;
   }
   .tools-logo img{
     width: 100px;
   }
-  
+.map-section-wrapper {
+    padding-top: 60px;
+}
   .sliding-section-content section h4{
     margin-bottom: 20px;
   }
@@ -2222,4 +2339,5 @@ h1.banner-title{
 .got-questions-section.space-top-100.space-bottom-100{
   padding: 60px 0px;
 }
+
 }
