@@ -4,6 +4,9 @@ body{
     font-family: "Roboto", serif;
     color: #080808;
 }
+.what-learn .unique-course img{
+  width: auto;
+}
 html{
   scroll-behavior: smooth;
 }
