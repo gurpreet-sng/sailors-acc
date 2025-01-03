@@ -2073,6 +2073,9 @@ h1.banner-title{
 }
 @media only screen and (max-width:575px){
 
+  .what-learn.learn-graphic-design .unique-course img{
+    width: 200px;
+  }
   .unique-course-section.wordpress-courses.it-course-for-entrepreneur.space-top-100{
     padding-top: 20px;
   }
