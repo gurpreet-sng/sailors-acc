@@ -758,6 +758,7 @@ h1.banner-title:before{
   padding: 40px;
   box-shadow: 0px 0px 10px 0px #dddddd;
   min-height: 275px;
+  margin-bottom: 10px;
 }
 .unique-course i{
   display: block;
@@ -2072,6 +2073,15 @@ h1.banner-title{
 }
 @media only screen and (max-width:575px){
 
+  .what-learn .unique-course{
+    min-height: auto;
+  }
+  .section-title-h2{
+    margin: 0px 20px;
+  }
+  .space-top-100.what-learn {
+    padding-top: 50px;
+  }
   .map-section-wrapper iframe{
     height: 300px;
   }
@@ -2151,9 +2161,9 @@ h1.banner-title{
   .about-the-course.space-top-100.space-bottom-100{
     padding: 60px 0px;
   }
-  .unique-course{
+  .unique-course {
+    min-height: 260px;
     padding: 30px 20px;
-    min-height: auto;
   }
   .video-container .title{
     font-size: 10px;
