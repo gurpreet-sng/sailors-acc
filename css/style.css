@@ -2151,9 +2151,9 @@ h1.banner-title{
   .about-the-course.space-top-100.space-bottom-100{
     padding: 60px 0px;
   }
-  .unique-course {
-    min-height: 260px;
+  .unique-course{
     padding: 30px 20px;
+    min-height: auto;
   }
   .video-container .title{
     font-size: 10px;
