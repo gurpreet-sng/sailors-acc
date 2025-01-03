@@ -1827,6 +1827,9 @@ h1.banner-title{
 }
 @media only screen and (max-width:767px){
 
+  .software-logos-wrapper ul{
+    display:block;
+  }
   .navbar-expand-md .navbar-nav li .submenu-wrapper{
     position: static;
     display: block;
@@ -1962,7 +1965,7 @@ h1.banner-title{
     text-align: center;
   }
   .new-courses-section{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
   }
   .space-top-bottom{
