@@ -2073,6 +2073,15 @@ h1.banner-title{
 }
 @media only screen and (max-width:575px){
 
+  .unique-course-section.wordpress-courses.space-top-100{
+    padding-top: 20px;
+  }
+  .what-learn.divide-into-five .unique-course img{
+    width: 100%;
+  }
+  .thumbnail-twenty-percent .unique-course h4 br{
+    display: none;
+  }
   .what-learn .unique-course{
     min-height: auto;
   }
