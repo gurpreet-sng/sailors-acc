@@ -1826,6 +1826,13 @@ h1.banner-title{
 }
 }
 @media only screen and (max-width:767px){
+
+  .navbar-expand-md .navbar-nav li .submenu-wrapper{
+    display: flex;
+  }
+  .navbar-expand-md .navbar-nav li .submenu-wrapper{
+    position: static;
+  }
   .space-top-100.what-learn{
     padding-top: 70px;
   }
