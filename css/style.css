@@ -1828,10 +1828,15 @@ h1.banner-title{
 @media only screen and (max-width:767px){
 
   .navbar-expand-md .navbar-nav li .submenu-wrapper{
-    display: flex;
-  }
-  .navbar-expand-md .navbar-nav li .submenu-wrapper{
     position: static;
+    display: block;
+    padding: 10px;
+  }
+  .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
+    display: block;
+  }
+  .submenu-wrapper ul li{
+    text-align: center;
   }
   .space-top-100.what-learn{
     padding-top: 70px;
