@@ -2083,6 +2083,9 @@ h1.banner-title{
   .our-vision-section .book-free-demo-form h2{
     font-size: 40px;
   }
+  .our-vision-section .book-free-demo-form{
+    padding: 40px 20px;
+  }
   .what-learn.learn-graphic-design .unique-course img{
     width: 200px;
   }
