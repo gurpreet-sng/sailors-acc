@@ -4,6 +4,19 @@ body{
     font-family: "Roboto", serif;
     color: #080808;
 }
+
+.scanme{
+  position: relative;
+}   
+.scanme .thumbnail-container{
+  position: absolute;
+  z-index: 10;
+}
+.scanme #video-container{
+  position: relative;
+  z-index: 20;
+}
+
 .what-learn .unique-course img{
   width: auto;
 }
