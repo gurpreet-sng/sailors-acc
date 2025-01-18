@@ -20,8 +20,6 @@ ul.list-style li{
 }
 .what-learn .unique-course img{
   width: auto;
-  width: 200px;
-  height: 65px;
 }
 html{
   scroll-behavior: smooth;
@@ -1851,8 +1849,6 @@ h1.banner-title{
 }
 .what-learn .unique-course img{
   width: auto;
-  width: 160px;
-  height: 50px;
 }
 }
 @media only screen and (max-width:767px){
