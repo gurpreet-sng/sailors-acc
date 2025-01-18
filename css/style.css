@@ -20,6 +20,8 @@ ul.list-style li{
 }
 .what-learn .unique-course img{
   width: auto;
+  width: 200px;
+  height: 65px;
 }
 html{
   scroll-behavior: smooth;
@@ -1847,6 +1849,11 @@ h1.banner-title{
 .inner-page-banner.about-page-banner .book-demo-content h2 {
   margin-bottom: 20px !important;
 }
+.what-learn .unique-course img{
+  width: auto;
+  width: 160px;
+  height: 50px;
+}
 }
 @media only screen and (max-width:767px){
 
@@ -2107,7 +2114,7 @@ h1.banner-title{
     padding: 40px 20px;
   }
   .what-learn.learn-graphic-design .unique-course img{
-    width: 200px;
+    /*width: 200px;*/
   }
   .unique-course-section.wordpress-courses.it-course-for-entrepreneur.space-top-100{
     padding-top: 20px;
