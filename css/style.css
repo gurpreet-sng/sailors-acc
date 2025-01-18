@@ -4,7 +4,9 @@ body{
     font-family: "Roboto", serif;
     color: #080808;
 }
-
+ul.list-style li{
+  line-height: 30px;
+}
 .scanme{
   position: relative;
 }   
