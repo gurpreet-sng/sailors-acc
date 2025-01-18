@@ -20,6 +20,7 @@ ul.list-style li{
 }
 .what-learn .unique-course img{
   width: auto;
+  max-width: 100%;
 }
 html{
   scroll-behavior: smooth;
