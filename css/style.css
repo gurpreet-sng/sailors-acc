@@ -1514,6 +1514,9 @@ ul.arrow-list{
   .voices-of-learners-title hr{
     display: none;
   }
+  .book-demo-content h4 br{
+    display: none;
+  }
 }
 @media only screen and (max-width:1600px){
 
