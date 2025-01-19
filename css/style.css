@@ -352,7 +352,7 @@ h1.banner-title:before{
   }
   .instructor-info p{
     font-size: 12px;
-    color: #dddddd;
+    color: #707070;
     margin: 0px;
   }
   .instructor-info b{
@@ -589,6 +589,7 @@ h1.banner-title:before{
 .voices-of-learners-title{
   margin-bottom: 60px;
   position: relative;
+  text-align: center;
 }
 .certification-day-section{
   margin-bottom: 100px;
@@ -723,9 +724,11 @@ h1.banner-title:before{
     top: 0px;
     bottom: 0px;
     margin: auto;
+    display: none;
 }
 .thriving-feature p{
   margin-bottom: 0px;
+  color: #707070;
 }
 .book-demo-class-section .form-check-input[type=checkbox]{
   width: 30px;
