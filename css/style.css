@@ -1310,6 +1310,9 @@ ul.arrow-list{
   border-radius: 40px;
   overflow: hidden;
 }
+.image-radius img{
+  width: 100%;
+}
 .choose-sailors-academy-text{
   padding: 0px 40px;
 }
