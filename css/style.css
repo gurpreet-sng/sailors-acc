@@ -10,6 +10,10 @@ ul.list-style li{
 ul.li-style li{
   line-height: 30px;
 }
+.link-and-arrow i{
+  display: inline-block;
+  margin-left: 20px;
+}
 .scanme{
   position: relative;
 }   
