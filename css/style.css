@@ -1377,12 +1377,14 @@ ul.arrow-list{
 }
 .two-buttons .btn{
   margin-right: 15px;
+  margin-bottom: 20px;
 }
 .hide-nav-pills .my-4.tags-bar.nav.nav-pills{
   display: none;
 }
-.hide-nav-pills .gallery-title{
-
+.white-icons i{
+  display: inline-block;
+  flex-shrink: 0;
 }
 .space-top-30{
   margin-top: 30px;
@@ -1390,6 +1392,56 @@ ul.arrow-list{
 .scholarships-courses-section .section-title-h2 h2{
   margin-bottom: 40px;
 }
+.white-icons{
+  display: flex;
+}
+.white-icons-text p{
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: #ffffff;
+}
+.white-icons-text b{
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+}
+.white-icons-text{
+  margin-left: 40px;
+}
+.book-demo-section.why-our-scholarships-section  h2{
+  margin-bottom: 50px;
+}
+.book-demo-section.space-top-bottom.why-our-scholarships-section{
+  padding: 0px 50px 0px;
+  background-image: none;
+  background-color: #0B6BD9;
+}
+.why-our-scholarships-section .book-free-demo-form{
+  margin-bottom: -200px;
+  box-shadow: 0px 0px 10px 0px #dddddd;
+}
+.simple-steps-started-section{
+  padding: 150px 0px 100px;
+}
+.simple-steps-started-section .course-content{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.simple-steps-started-section .course-content i{
+  display: block;
+  margin-bottom: 15px;
+} 
+.simple-steps-started-section .course-content h5{
+  display: block;
+}
+.simple-steps-started-section .section-title-h2{
+  margin-bottom: 30px;
+}
+.nerd-gerl{
+  margin-top:-50px;
+}
+
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1407,6 +1459,29 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1700px){
 
+  .book-free-demo-form{
+    padding: 30px;
+  }
+  .book-demo-section.why-our-scholarships-section h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .white-icons-text b{
+    font-size: 20px;
+  }
+  .white-icons-text p{
+    font-size: 18px;
+  }
+  .white-icons-text{
+    margin-left: 20px;
+  }
+  .nerd-gerl {
+    margin-top: 0px;
+  }
+  .book-demo-section.why-our-scholarships-section .book-demo-content h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
   .navbar.navbar-expand-md.navbar-dark .search-form-style{
     display: none;
   }
@@ -1426,6 +1501,15 @@ ul.arrow-list{
   .icon3{
     transform: translateX(-135%);
   }
+  .why-our-scholarships-section .book-free-demo-form{
+    margin-bottom: -100px;
+  }
+  .simple-steps-started-section {
+    padding: 100px 0px 100px;
+  }
+  .voices-of-learners-title hr{
+    display: none;
+  }
 }
 @media only screen and (max-width:1600px){
 
@@ -1434,6 +1518,9 @@ ul.arrow-list{
   }
   .contact-details-footer{
     background-size: cover;
+  }
+  .why-our-scholarships-section .book-free-demo-form {
+    margin-bottom: 0px;
   }
 }
 @media only screen and (max-width:1440px){
@@ -1507,6 +1594,9 @@ ul.arrow-list{
   }
   .thumbnail-twenty-percent .unique-course h4 {
     font-size: 18px;
+  }
+  .why-our-scholarships-section .book-free-demo-form{
+    margin: 40px 0px;
   }
 }
 @media only screen and (max-width:1199px){
@@ -1629,6 +1719,9 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1024px){
 
+  .banner-title.scholarship-title {
+    line-height: 40px;
+  }
   .navbar .btn-style{
     display: none;
   }
@@ -1695,9 +1788,15 @@ ul.arrow-list{
 }
 @media only screen and (max-width:991px){
 
-  .choose-sailors-academy-text{
+.book-demo-section.space-top-bottom.why-our-scholarships-section{
+    padding: 60px 20px 30px;
+}
+.simple-steps-started-section {
+  padding: 60px 0px;
+}
+.choose-sailors-academy-text{
     padding: 40px 0px 0px;
-  }
+}
 .book-demo-content.uiux.contact-address{
     padding-left: 0px;
 }
@@ -1880,6 +1979,10 @@ h1.banner-title{
 
   .course-content-section.space-top-100{
     padding-top: 60px;
+  }
+  .scholarships-courses-section .section-title-h2 h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
   }
   .software-logos-wrapper ul{
     display:block;
@@ -2119,9 +2222,22 @@ h1.banner-title{
   .map-section-wrapper iframe{
     height: 400px;
   }
+  .banner-title.scholarship-title{
+    line-height: 40px;
+  }
+  .banner-section-wrapper .mt-5{
+    margin-top: 0px !important;
+  }
+  .book-demo-section.why-our-scholarships-section .book-demo-content h2 br{
+    display: none;
+  }
 }
 @media only screen and (max-width:575px){
 
+  .banner-title.scholarship-title {
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
   .our-vision-section .book-free-demo-form h2{
     font-size: 40px;
   }
@@ -2444,5 +2560,7 @@ h1.banner-title{
 .got-questions-section.space-top-100.space-bottom-100{
   padding: 60px 0px;
 }
-
+.simple-steps-started-section{
+  padding: 60px 0px 20px;
+}
 }
