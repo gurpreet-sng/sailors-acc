@@ -1339,7 +1339,7 @@ ul.arrow-list{
   text-align: center;
   background-image: url("../images/layerdbg.png");
   padding: 50px;
-  margin: 0px 20px;
+  margin: 0px auto;
 }
 .what-we-offer-section .section-title-h2 p{
   font-weight: 400;
@@ -1459,6 +1459,9 @@ ul.arrow-list{
   }
   .efforts-look-like-image{
     margin-bottom: -200px;
+  }
+  .why-choose-sailors-acc-section.why-choose-sailors-about-pg {
+    padding-top: 200px;
   }
 }
 @media only screen and (max-width:1700px){
@@ -1795,6 +1798,9 @@ ul.arrow-list{
 }
 @media only screen and (max-width:991px){
 
+.what-we-offer-section{
+  margin: 0px 20px;
+}
 .book-demo-section.space-top-bottom.why-our-scholarships-section{
     padding: 60px 20px 30px;
 }
