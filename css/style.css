@@ -154,7 +154,7 @@ h1.banner-title:before{
   left: -60px;
 }
 .banner-image{
-    margin-top: -50px;
+    margin-top: -40px;
 }
 .software-logos-wrapper ul{
     margin: 0px;
@@ -1368,7 +1368,28 @@ ul.arrow-list{
 .our-vision-section .btn.btn-style{
   margin-top: 30px;
 }
+.banner-title.scholarship-title{
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.banner-title.scholarship-title:before{
+  
+}
+.two-buttons .btn{
+  margin-right: 15px;
+}
+.hide-nav-pills .my-4.tags-bar.nav.nav-pills{
+  display: none;
+}
+.hide-nav-pills .gallery-title{
 
+}
+.space-top-30{
+  margin-top: 30px;
+}
+.scholarships-courses-section .section-title-h2 h2{
+  margin-bottom: 40px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
