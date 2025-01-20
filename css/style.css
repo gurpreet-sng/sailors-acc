@@ -338,6 +338,12 @@ h1.banner-title:before{
     border-radius: 12px;
     margin-top: 30px;
   }
+  .book-free-demo-form .btn.btn-primary:hover{
+    background-color: #ff4c83;
+  }
+  .book-demo-class-section .book-free-demo-form .btn.btn-primary:hover{
+    background-color: #ff4c83;
+  }
   .book-free-demo-form .btn.btn-primary i{
     margin-left: 10px;
   }
@@ -491,6 +497,9 @@ h1.banner-title:before{
   margin-right: 40px;
   font-weight: 500;
   margin-top: 40px;
+}
+.read-more-shape a:hover{
+  background-color: #ff4c83;
 }
 .section-title-h2 h2{
   font-family: "Roboto", serif;
