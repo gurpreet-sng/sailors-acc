@@ -297,6 +297,12 @@ h1.banner-title:before{
     padding: 40px;
     border-radius: 40px;
   }
+  .book-free-demo-form.book-free-demo-modal{
+    padding: 10px;
+  }
+  .btn-close:focus{
+    box-shadow: none;
+  }
   .inner-page-banner .book-free-demo-form{
     max-width: 588px;
     position: relative;

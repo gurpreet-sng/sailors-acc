@@ -44,9 +44,71 @@
                         <input type="search" class="form-control search-style text-bg-dark" placeholder="Search Anything" aria-label="Search">
                     </form>
                     <div class="text-end">
-                        <a href="#" type="button" class="btn btn-style">Start course now<i><img src="images/arrow-right.png"></i></a>
+                        <a href="#" type="button" class="btn btn-style" data-bs-toggle="modal" data-bs-target="#exampleModal">Start course now<i><img src="images/arrow-right.png"></i></a>
                     </div>
             </div>
         </nav>
     </div>
 </header>
+
+<!-- Button trigger modal -->  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Book A Free Demo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="book-free-demo-form book-free-demo-modal">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                        <input type="text" placeholder="*Your Name" id="disabledTextInput" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <input type="email" placeholder="*Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                        <input type="tel" placeholder="*Phone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Course</option>
+                                <option value="1">UIUX</option>
+                                <option value="2">PHP Development</option>
+                                <option value="3">Digital Marketing</option>
+                                <option value="3">SEO Course</option>
+                                <option value="3">Wordpress Development</option>
+                                <option value="3">IT Course for Entrepreneurship</option>
+                                <option value="3">Shopify Development</option>
+                                <option value="3">Graphic Design</option>
+                                <option value="3">Video Editing</option>
+                                <option value="3">Quick Books</option>
+                                <option value="3">Fresh Books</option>
+                                <option value="3">Complete IT</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                        <input type="text" placeholder="College Student" class="form-control">
+                        </div>
+                    </div>
+    
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Book free Demo Class</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
