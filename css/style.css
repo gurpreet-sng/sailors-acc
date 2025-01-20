@@ -2265,6 +2265,9 @@ h1.banner-title{
   .video-container.digital-marketing-video-container.mb-0{
     margin-top: 30px;
   }
+  .video-container.mb-0{
+    margin-top: 30px;
+  }
   .banner-title.scholarship-title {
     line-height: 30px;
     margin-bottom: 20px;
