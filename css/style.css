@@ -1890,7 +1890,11 @@ a{
   .section-title-h2 p{
     font-size: 20px;
   }
- 
+  .footer-social li a {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width:991px){
 
