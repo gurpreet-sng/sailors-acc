@@ -990,7 +990,7 @@ ul.arrow-list{
 }
 .sliding-section-content{
   flex: 1;
-  padding: 0px 60px;
+  padding: 0px 60px 40px;
   border: 1px solid #E9E9E9;
   border-radius: 20px;
   margin-left: 20px;
@@ -1971,6 +1971,7 @@ h1.banner-title{
 }
 .sliding-section-content{
   margin-left: 0px;
+  width: 100%;
 }
 .sliding-section-sidebar{
   width: 100%;
