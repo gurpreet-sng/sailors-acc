@@ -408,7 +408,7 @@ h1.banner-title:before{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .join-thriving-community-section .container-fluid{
+  .join-thriving-community-section .container{
     background-color: #0D99FF;
     border-radius: 50px 50px 0px 50px;
     padding:60px;
@@ -441,7 +441,7 @@ h1.banner-title:before{
   margin-top: 50px;
  }
  .join-thriving-community-section{
-  padding: 0px 40px;
+  padding: 0px 0px;
   position: relative;
  }
  .thriving-feature{
