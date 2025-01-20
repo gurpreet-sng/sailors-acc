@@ -2295,6 +2295,9 @@ h1.banner-title{
 @media only screen and (max-width:575px){
 
   .what-we-offer-section{
+    width: 90%;
+  }
+  .what-we-offer-section{
     margin: 0px 15px;
   }
   .course-info-wrapper-and-title{
