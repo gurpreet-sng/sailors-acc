@@ -2291,6 +2291,9 @@ h1.banner-title{
   .book-demo-section.why-our-scholarships-section .book-demo-content h2 br{
     display: none;
   }
+  .space-top-100.why-choose-sailors-acc-section.why-choose-sailors-about-pg{
+    padding-top: 60px !important;
+  }
 }
 @media only screen and (max-width:575px){
 
