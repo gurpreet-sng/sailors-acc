@@ -1799,9 +1799,10 @@ ul.arrow-list{
   .stop-wasting-time-section h2{
     font-size: 50px;
   }
-  .section-title-h2 p {
+  .section-title-h2 p{
     font-size: 20px;
   }
+  
 }
 @media only screen and (max-width:991px){
 
@@ -2001,6 +2002,9 @@ h1.banner-title{
 }
 @media only screen and (max-width:767px){
 
+  .Step-by-Step-Journey .space-bottom-50{
+    margin-bottom: 0px;
+  }
   .course-content-section.space-top-100{
     padding-top: 60px;
   }
