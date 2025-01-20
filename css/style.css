@@ -2293,6 +2293,8 @@ h1.banner-title{
   }
   .space-top-100.why-choose-sailors-acc-section.why-choose-sailors-about-pg{
     padding-top: 60px !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media only screen and (max-width:575px){
