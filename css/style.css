@@ -2642,4 +2642,7 @@ h1.banner-title{
 .banner-section-wrapper.inner-page-banner .mt-5{
   margin-top: 30px !important;
 }
+.join-thriving-community-section .container{
+  padding: 40px 20px;
+}
 }
