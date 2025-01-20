@@ -2601,4 +2601,7 @@ h1.banner-title{
 .simple-steps-started-section{
   padding: 60px 0px 20px;
 }
+.link-and-arrow i{
+  margin-top: 10px;
+}
 }
