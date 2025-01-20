@@ -1468,7 +1468,9 @@ ul.arrow-list{
 .nerd-gerl{
   margin-top:-50px;
 }
-
+.course-info-wrapper-and-title{
+  height: 70px;
+}
 @media only screen and (min-width:1920px){
 
   .container-fluid{
@@ -1752,6 +1754,9 @@ ul.arrow-list{
     transform: translateX(-50%);
     bottom: -10%;
   }
+  .course-info-wrapper-and-title {
+    height: 90px;
+  }
 }
 @media only screen and (max-width:1024px){
 
@@ -1821,7 +1826,7 @@ ul.arrow-list{
   .section-title-h2 p{
     font-size: 20px;
   }
-  
+ 
 }
 @media only screen and (max-width:991px){
 
@@ -2021,6 +2026,9 @@ h1.banner-title{
 }
 @media only screen and (max-width:767px){
 
+  .course-info-wrapper-and-title{
+    height: 70px;
+  }
   .Step-by-Step-Journey .space-bottom-50{
     margin-bottom: 0px;
   }
@@ -2281,6 +2289,9 @@ h1.banner-title{
 }
 @media only screen and (max-width:575px){
 
+  .course-info-wrapper-and-title{
+    height: auto;
+  }
   .video-container.digital-marketing-video-container.mb-0{
     margin-top: 30px;
   }
