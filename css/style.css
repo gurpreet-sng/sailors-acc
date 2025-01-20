@@ -1521,8 +1521,9 @@ a{
 }
 .text_icon {
   margin-top: 8px;
-  color: #707070;
-  font-size: 13px;
+    color: #ff4c83;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 @media only screen and (min-width:1920px){
