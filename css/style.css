@@ -1639,6 +1639,15 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1199px){
 
+  .gallery-item-content h6{
+    font-size: 14px;
+  }
+  .gallery-item-footer h5 {
+    font-size: 14px;
+  }
+  .gallery-item-footer .btn-style{
+    padding: 10px 15px;
+  }
   .stop-wasting-time-section h2{
     font-size: 60px;
   }
