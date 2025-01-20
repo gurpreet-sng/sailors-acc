@@ -1473,6 +1473,9 @@ ul.arrow-list{
 }
 @media only screen and (max-width:1700px){
 
+  .our-instructors-section-wrapper{
+    background-position: 500px center;
+  }
   .book-free-demo-form{
     padding: 30px;
   }
