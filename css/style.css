@@ -360,6 +360,7 @@ h1.banner-title:before{
     color: #3E3232;
     font-size: 13px;
     margin: 0px;
+    line-height: 16px;
   }
   .instructor-box{
     margin-bottom: 20px;
