@@ -63,7 +63,7 @@ html{
     text-align: center;
 }
 .navbar-expand-md .navbar-nav .nav-link:hover{
-  color: #ff4c83;
+  color: #bc8c22;
 }
 .spaceleft-right{
     padding: 0px 40px;
@@ -95,7 +95,7 @@ html{
     border-radius: 12px;
 }
 .btn-style:hover{
-  background-color: #ff4c83;
+  background-color:#BC8C22;
   color: #ffffff;
 }
 .btn.btn-style i{
@@ -134,7 +134,7 @@ html{
     padding: 0px;
 }
 .banner-section-wrapper{
-    background-color: #00255B;
+    background-color: #125637;
     padding: 0px 100px;
     border-radius: 0px 50px 50px 50px;
 }
@@ -308,7 +308,7 @@ h1.banner-title:before{
     position: relative;
   }
   .book-free-demo-form h2{
-    color: #0B6BD9;
+    color: #125637;
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -339,10 +339,10 @@ h1.banner-title:before{
     margin-top: 30px;
   }
   .book-free-demo-form .btn.btn-primary:hover{
-    background-color: #ff4c83;
+    background-color: #bc8c22;
   }
   .book-demo-class-section .book-free-demo-form .btn.btn-primary:hover{
-    background-color: #ff4c83;
+    background-color: #bc8c22;
   }
   .book-free-demo-form .btn.btn-primary i{
     margin-left: 10px;
@@ -388,6 +388,7 @@ h1.banner-title:before{
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 20px;
+    color: #006039;
   }
   .section-title .btn.btn-style{
     margin-top: 20px;
@@ -404,12 +405,13 @@ h1.banner-title:before{
     margin-left: 10px;
   }
   .section-title span{
-    background: -webkit-linear-gradient(#FAC1F1, #B176F2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*background: -webkit-linear-gradient(#FAC1F1, #B176F2);*/
+    color: #BC8C22;
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
   }
   .join-thriving-community-section .container{
-    background-color: #0D99FF;
+    background-color: #125637;
     border-radius: 50px 50px 0px 50px;
     padding:60px;
     background-image: url("../images/thriving-bg.png");
@@ -486,7 +488,7 @@ h1.banner-title:before{
  }
  .read-more-shape a {
   border-radius: 50px;
-  background-color: #0B6BD9;
+  background-color: #BC8C22;
   color: #ffffff;
   text-decoration: none;
   padding: 10px 40px;
@@ -499,7 +501,7 @@ h1.banner-title:before{
   margin-top: 40px;
 }
 .read-more-shape a:hover{
-  background-color: #ff4c83;
+  background-color: #000000;
 }
 .section-title-h2 h2{
   font-family: "Roboto", serif;
@@ -617,7 +619,7 @@ h1.banner-title:before{
   margin-bottom: 80px;
 }
 .book-demo-class-section .book-free-demo-form .btn.btn-primary{
-    background-color: #0B6BD9;
+    background-color: #125637;
     height: 68px;
     padding: 0px 60px;
     width: auto;
@@ -717,7 +719,7 @@ h1.banner-title:before{
   margin: 0px 10px;
 }
 .footer-social li a:hover{
-  background-color: #FF4C83;
+  background-color: #bc8c22;
   transition: all 0.3s ease-in-out 0s;
 }
 .footer-social li a:hover i{
@@ -1296,7 +1298,7 @@ ul.arrow-list{
   display: inline-block;
 }
 .navbar-expand-md .navbar-nav li .submenu-wrapper ul li a:hover{
-  color: #ff4c83;
+  color: #bc8c22;
 }
 .submenu-wrapper ul li{
   list-style: none;
@@ -1522,7 +1524,7 @@ a{
 }
 .text_icon {
   margin-top: 8px;
-    color: #ff4c83;
+    color: #bc8c22;
     font-size: 13px;
     font-weight: 700;
 }
